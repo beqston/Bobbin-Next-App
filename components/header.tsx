@@ -18,8 +18,8 @@ export default function HeaderComponent(){
                 <div className="hidden md:w-3/5 h-12 group m-auto opacity-80 backdrop-blur-xs md:flex justify-center gap-4 ">
                     <a className="text-xl text-black font-bold transition-colors duration-300 hover:bg-gray-700 group-hover:text-gray-500 hover:text-white w-fit p-2 cursor-pointer" href="#howWorks">How It Works</a>
                     <a className="text-xl text-black font-bold transition-colors duration-300 hover:bg-gray-700 group-hover:text-gray-500 hover:text-white w-fit p-2 cursor-pointer" href="#testimonials">Testimonials</a>
-                    <a className="text-xl text-black font-bold transition-colors duration-300 hover:bg-gray-700 group-hover:text-gray-500 hover:text-white w-fit p-2 cursor-pointer" href="#blog">Blog</a>
                     <a className="text-xl text-black font-bold transition-colors duration-300 hover:bg-gray-700 group-hover:text-gray-500 hover:text-white w-fit p-2 cursor-pointer" href="#pricing">Pricing</a>
+                    <a className="text-xl text-black font-bold transition-colors duration-300 hover:bg-gray-700 group-hover:text-gray-500 hover:text-white w-fit p-2 cursor-pointer" href="#faqs">FAQs</a>
                 </div>
             </header>
             <MobHeaderComponent />

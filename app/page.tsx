@@ -2,6 +2,7 @@ import HeaderComponent from "@/components/header";
 import HerroComponent from "@/components/hero";
 import HowItWorks from "@/components/how-it-works";
 import IntoMoment from "@/components/into-moment";
+import Pricing from "@/components/pricinng";
 import Testimonials from "@/components/testimonials";
 
 
@@ -18,6 +19,7 @@ export default function Home() {
       
       <IntoMoment />
       <Testimonials />
+      <Pricing />
     </div>
 
   );
