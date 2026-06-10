@@ -64,9 +64,9 @@ export default function AiPlansAccordion(){
                                 {
                                     isOpen && (
                                         <div>
-                                            <p className="flex gap-2 m-2"><Image src="/images/circle.png" width={16} height={16} alt="circle"/> <span>{plan.description.text1}</span></p>
-                                            <p className="flex gap-2 m-2"><Image src="/images/circle.png" width={16} height={16} alt="circle"/> <span>{plan.description.text2}</span></p>
-                                            <p className="flex gap-2 m-2"><Image src="/images/circle.png" width={16} height={16} alt="circle"/> <span>{plan.description.text3}</span></p>
+                                            <p className="flex gap-2 m-2"><Image src="/images/circle.png" width={18} height={16} alt="circle"/> <span>{plan.description.text1}</span></p>
+                                            <p className="flex gap-2 m-2"><Image src="/images/circle.png" width={18} height={16} alt="circle"/> <span>{plan.description.text2}</span></p>
+                                            <p className="flex gap-2 m-2"><Image src="/images/circle.png" width={18} height={16} alt="circle"/> <span>{plan.description.text3}</span></p>
                                         </div>
                                     )
                                 }

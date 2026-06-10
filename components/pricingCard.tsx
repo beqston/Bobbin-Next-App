@@ -13,10 +13,10 @@ interface CardType{
     checkedText2:string,
     checkedText3:string,
     hoverBgColor:string,
-    arrowRight:boolean
+    iSArrowRight:boolean
 }
 
-export default function PricingCard({title, advise, price, during, buttonText="Get Started", buttonBgColor="bg-spark-pale-yellow", buttonTextColor, additional, checkedText1, checkedText2, checkedText3, hoverBgColor, arrowRight }:CardType){
+export default function PricingCard({title, advise, price, during, buttonText="Get Started", buttonBgColor="bg-spark-pale-yellow", buttonTextColor, additional, checkedText1, checkedText2, checkedText3, hoverBgColor, iSArrowRight }:CardType){
     return(
         <div className="bg-white p-4 rounded-xl">
             <h2 className="text-3xl">{title}</h2>
@@ -50,7 +50,7 @@ export default function PricingCard({title, advise, price, during, buttonText="G
             <button className={`${buttonBgColor} ${buttonTextColor} w-full rounded-2xl p-2 cursor-pointer mt-4 hover:${hoverBgColor} flex justify-center gap-2 transition duration-300 group`}>
                 <span>{buttonText}</span>
                 {
-                    arrowRight && <Image className="group-hover:translate-x-2 transition duration-400" width={18} height={18} src={"/images/right-arrow.png"}alt="right-arrow" />
+                    iSArrowRight && <Image className="group-hover:translate-x-2 transition duration-400" width={18} height={18} src={"/images/right-arrow.png"}alt="right-arrow" />
                 }
             </button>
         </div>

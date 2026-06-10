@@ -17,7 +17,7 @@ export default function Pricing(){
                     checkedText2="10 hours of lessons included"
                     checkedText3="Ideal for solo tutors just getting started"
                     hoverBgColor="bg-amber-200"
-                    arrowRight={true}
+                    iSArrowRight={true}
                 />
 
                 <PricingCard 
@@ -30,7 +30,7 @@ export default function Pricing(){
                     checkedText2="40 hours of lessons included"
                     checkedText3="Ideal for growing tutoring businesses"
                     hoverBgColor="bg-amber-200"
-                    arrowRight={true}
+                    iSArrowRight={true}
                 />
                 <PricingCard 
                     title="Pro" 
@@ -42,7 +42,7 @@ export default function Pricing(){
                     checkedText2="300 hours of lessons included"
                     checkedText3="Ideal for larger businesses"
                     hoverBgColor="bg-amber-200"
-                    arrowRight={true}
+                    iSArrowRight={true}
                 />
                 <PricingCard 
                     title="Enterprise" 
@@ -57,7 +57,7 @@ export default function Pricing(){
                     checkedText2="Get the hours you need to tutor at scale"
                     checkedText3="Ideal for large enterprise companies"
                     hoverBgColor="bg-spark-grey-30"
-                    arrowRight={false}
+                    iSArrowRight={false}
                 />
            </div>
         </div>

@@ -1,3 +1,4 @@
+import FaqsComponent from "@/components/faqs";
 import HeaderComponent from "@/components/header";
 import HerroComponent from "@/components/hero";
 import HowItWorks from "@/components/how-it-works";
@@ -9,17 +10,20 @@ import Testimonials from "@/components/testimonials";
 
 export default function Home() {
   return (
-    <div className="bg-spark-cream">
+    <div id="home">
       <div
-        className="min-h-fit">
+        className="min-h-fit bg-spark-cream">
         <HeaderComponent />
         <HerroComponent />
         <HowItWorks />
+        <IntoMoment />
+        <Testimonials />
       </div>
       
-      <IntoMoment />
-      <Testimonials />
-      <Pricing />
+      <div className="bg-linear-to-b from-spark-cream to bg-spark-pale-yellow">
+        <Pricing />
+        <FaqsComponent />
+      </div>
     </div>
 
   );
